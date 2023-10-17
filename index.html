@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Update 2.0</title>
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+</head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+<body>
+    <!-- HEADER -->
+    <section class="header">
+        <div class="barra-superior">
+            <div class="icono-menu-textos">
+                <img src="icono-menu.png" height="30" width="30">
+                <h5>Tv shows</h5>
+                <h5>Movies</h5>
+                <h5>Kids</h5>
+            </div>
+            <div class="icono-usuario">
+                <img src="icono-usuario.png" height="30" width="30">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Banner pelicula destacada -->
+    <section class="pelicula-destacada">
+
+        <div class="lara-jean">
+            <h2 class="movie-title"></h2>
+            <div class="rating">
+                <h6 class="movie-rating"></h6>
+            </div>
+        </div>
+        <div class="descripcion-lara-jean">
+            <h6 class="movie-description"></h6>
+        </div>
+        <div class="botones-descripcion">
+            <button class="boton-play">
+                <img src="icono-play.png" height="25" width="25">
+                <h6>Play</h6>
+            </button>
+            <button class="boton-save">
+                <h6>Save</h6>
+                <img src="icono-guardar.png" height="25" width="25">
+            </button>
+            <div class="edad">
+                <h6>+18</h6>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Recommended For You -->
+    <div class="for-you">
+        <h4>RECOMMENDED FOR YOU</h4>
+    </div>
+
+
+    <section class="recomendaciones" id="recommended-movies">
+        <div class="scroll-horizontal">
+
+          <!-- Estructura de una película  -->
+<div class="recomendacion" id="movie-container">
+    <img src="placeholder.jpg" height="300" width="200" id="movie-image">
+    <button class="play-recomendaciones" id="play-button">
+        <img src="icono-play.png" height="25" width="25">
+        <h6>Play</h6>
+    </button>
+    <div class="para-mayores" id="age-rating">
+        <h6>13+</h6>
+    </div>
+    <div class="estrellas" id="ratings-container">
+        <p>Ratings:</p>
+        <img src="favorito-amarillo.png" height="15" width="15">
+        <img src="favorito-amarillo.png" height="15" width="15">
+        <img src="favorito-amarillo.png" height="15" width="15">
+        <img src="favorito-amarillo.png" height="15" width="15">
+        <img src="favorito-amarillo.png" height="15" width="15">
+        <div class="guardar" id="save-button">
+            <img src="icono-guardar.png" height="15" width="15">
+        </div>
+    </div>
+</div>
+
+        </div>
+    </section>
+
+
+
+    <!-- TRENDING -->
+    <div class="for-you">
+        <h4>TRENDING THIS WEEK</h4>
+    </div>
+
+
+    <section class="recomendaciones" id="trending-movies">
+        <div class="scroll-horizontal">
+
+<div class="recomendacion" id="movie-container">
+    <img src="placeholder.jpg" height="300" width="200" id="movie-image">
+    <button class="play-recomendaciones" id="play-button">
+        <img src="icono-play.png" height="25" width="25">
+        <h6>Play</h6>
+    </button>
+    <div class="para-mayores" id="age-rating">
+        <h6>13+</h6>
+    </div>
+    <div class="estrellas" id="ratings-container">
+        <p>Ratings:</p>
+        <img src="favorito-amarillo.png" height="15" width="15">
+        <img src="favorito-amarillo.png" height="15" width="15">
+        <img src="favorito-amarillo.png" height="15" width="15">
+        <img src="favorito-amarillo.png" height="15" width="15">
+        <img src="favorito-amarillo.png" height="15" width="15">
+        <div class="guardar" id="save-button">
+            <img src="icono-guardar.png" height="15" width="15">
+        </div>
+    </div>
+</div>
+
+        </div>
+    </section>
+
+</body>
+
+<footer>
+    <div class="final"></div>
+    <script src="script.js"></script>
+</footer>
+
+</html>
