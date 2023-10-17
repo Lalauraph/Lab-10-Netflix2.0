@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background-size: cover;
+    background-color: #2A0134;
+  }
+  
+  .icono-menu-textos {
+    width: 40%;
+    display: flex;
+    align-items: row;
+    justify-content: start;
+  }
+  
+  .icono-menu-textos h5 {
+    margin-left: 3%;
+  }
+  
+  .icono-menu-textos img {
+    margin-left: 2%;
+  }
+  
+  .icono-usuario {
+    display: flex;
+    justify-content: end;
+    margin-right: 2%;
+    width: 100%;
+  }
+  
+  .barra-superior {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 10;
+    height: 10%;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: row;
+    align-items: center;
+  }
+  
+  .pelicula-destacada {
+    height: 450px;
+    background-size: cover;
+  }
+  
+  .lara-jean {
+    width: 35%;
+    height: 50%;
+    color: white;
+    display: flex;
+    align-items: self-end;
+    justify-content: space-between;
+    margin-left: 5%;
+  }
+  
+  .descripcion-lara-jean {
+    width: 40%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: self-end;
+    margin-left: 5%;
+    margin-top: 5px;
+  }
+  
+  .botones-descripcion {
+    display: flex;
+    align-items: row;
+  }
+  
+  .boton-play {
+    width: 6%;
+    height: 10%;
+    color: white;
+    background-color: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    border-color: white;
+    padding-right: 1%;
+  }
+  
+  .boton-save {
+    width: 6%;
+    height: 10%;
+    color: white;
+    background-color: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    border-color: white;
+    padding-left: 1%;
+  }
+  
+  
+  .edad {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 1%;
+  }
+  
+  .for-you {
+    color: white;
+    margin-left: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  
+  .recomendaciones {
+    display: flex;
+    align-items: row;
+    align-items: center;
+    max-width: 100%;
+  }
+  
+  .scroll-horizontal {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  .scroll-horizontal::-webkit-scrollbar {
+    height:7px;
+  }
+  
+  .scroll-horizontal::-webkit-scrollbar-track {
+    background-color:  #2A0134;
+  }
+  
+  .scroll-horizontal::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  .caja-recomendacion1 {
+    width: 250px;
+    margin-right: 20px;
+  }
+  
+  .recomendacion {
+    margin-left: 40px;
+    cursor: pointer;
+  }
+  
+  .recomendacion img {
+    border-radius: 15px;
+  }
+  
+  .estrellas {
+    display: flex;
+    color: white;
+    justify-content: row;
+    align-items: center;
+    font-size: 15px;
+    margin-top: -50px;
+    margin-bottom: 10px;
+  }
+  
+  .guardar {
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+  }
+  
+  .play-recomendaciones {
+    width: 33%;
+    height: 5%;
+    color: white;
+    background-color: #818181;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    position: relative;
+    top: -80px;
+    left: 10px;
+  }
+  
+  .para-mayores {
+    color: white;
+    background-color: #818181;
+    height: 8%;
+    width: 15%;
+    border-radius: 5px;
+    padding-left: 2%;
+    position: relative;
+    top: -320px;
+    left: 155px;
+  }
+  
+  .final {
+    height: 30px;
+    background-color: #2A0134
+  }
